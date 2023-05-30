@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration</title>
+    <link rel="stylesheet" href="bookcss.css">
+    <script src="book1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    
+</head>
+
+<body>
+    <!-- <div id="h">YAV</div> -->
+    <!-- <div class="l">Schedule a Call</div> -->
+    <!-- <div class="l">Hire with Us</div> -->
+    <div class="flexbox b">
+        <div style="text-align: center;">
+            <h1 style="color: green ">Book a Call</h1>
+            <h3>Book a call slot and our representative will call you within 1 hour of selected time.</h3>
+        </div>
+        <hr width="99%" color="red">
+
+        <div style="align-items: left;">
+
+            <form onsubmit="signup()">
+                <label for="1">Name:</label><br>
+                <input type="text" id="1" class="c" required><br><br>
+                <label for="2">Email:</label><br>
+                <input type="text" id="2" class="c" required><br><br>
+                <label for="3">Phone:</label><br>
+                <input type="text" id="3" class="c" required><br><br>
+                <label for="4"> Time for Call:</label><br><br>
+                <input type="date" id="4" class="f" required>
+                <input type="time" id="5" class="f" required> <br><br>
+                <input type="submit" value="GET A CALL" style="font-size: 20px;">
+            </form>
+            <ol class="show">
+
+            </ol>
+        </div>
+    </div>
+  
+</body>
+
+</html>
